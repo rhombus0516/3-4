@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="src/base.css">
+  <title>Todoリスト</title>
+</head>
+
+<body>
+  <!-- 入力エリア -->
+  <div class="input-area">
+    <input id="add-text" placeholder="Todoを入力" />
+    <button id="add-button">追加</button>
+  </div><!-- input-area -->
+
+  <div class="container">
+    <!-- 作業中エリア -->
+    <div class="incomp-area">
+      <p class="area-title">タスク</p>
+      <ul id="incomp-area-list">
+      </ul>
+    </div><!-- incomp-area -->
+
+    <!-- 完了エリア -->
+    <div class="comp-area">
+      <p class="area-title">完了</p>
+      <ul id="comp-area-list">
+      </ul>
+    </div><!-- comp-area -->
+  </div><!-- container -->
+
+  <script src="src/index.js"></script>
+</body>
+
+</html>
