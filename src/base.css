@@ -81,6 +81,16 @@ ul {
 ul li {
   list-style: none;
   overflow-wrap: break-word;
+  display: flex;
+  justify-content: space-between; /* ボタンを右寄せにする */
+  align-items: center;
+}
+
+ul li .complete-btn,
+ul li .delete-btn,
+ul li .return-btn {
+/* ボタンを右寄せにする */
+  margin-right: 0; /* ボタン間の余白を無くす */
 }
 
 ul li .complete-btn {
